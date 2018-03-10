@@ -1,0 +1,11 @@
+{
+	"version": 3,
+	"file": "app.css",
+	"sources": [
+		"../styles/app.sass",
+		"../styles/_globals.sass",
+		"../styles/_colorPalette.sass"
+	],
+	"names": [],
+	"mappings": ""
+}
