@@ -1,1 +1,54 @@
 @import globals
+
+body
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed' !important
+
+    header#home-header
+        margin: unset
+        flex-flow: wrap column
+        width: 100%
+        height: 70vh
+        background-image: linear-gradient(rgba(0,0,0, 0.6), rgba(255, 193, 7, 1)), url('../images/header-cover.png')
+
+    header
+        nav
+            a.brand-logo
+                margin: 0 15px
+                .logo-icon
+                    font-size: 30px
+                    color: $primary-color
+
+                    @media screen and (min-width: 600px)
+                        line-height: 2.1 !important
+            
+            ul
+
+                li
+                    text-transform: uppercase
+                    font-weight: 800
+                    a
+                        color: #FFECB3
+        
+        div#header-content
+            height: 70%
+            flex-flow: column wrap
+            justify-content: center
+            align-items: center
+            color: #fff
+
+            h1
+                padding: 0
+                margin: 0
+                font-size: 4em
+                font-weight: lighter
+
+            p
+                font-weight: 200
+                font-size: 2em
+                
+        nav.bg-tr
+            background-color: unset
+
+
