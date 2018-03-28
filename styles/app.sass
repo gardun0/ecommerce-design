@@ -1,16 +1,17 @@
 @import globals
 
 body
-    margin: 0;
-    padding: 0;
+    margin: 0
+    padding: 0
+    background-color: white
     font-family: 'Roboto Condensed' !important
 
     header#home-header
         margin: unset
         flex-flow: wrap column
         width: 100%
-        height: 70vh
-        background-image: linear-gradient(rgba(0,0,0, 0.6), rgba(255, 193, 7, 1)), url('../images/header-cover.png')
+        background-image: linear-gradient(rgba(0,0,0, 0.6), rgba(255, 193, 7, 1)), url('https://www.rockstargames.com/reddeadredemption2/dist/img/screenshots/931caf36f99c3449f6a09ae76fdeb78d.jpg')
+        
 
     header
         nav
@@ -32,11 +33,17 @@ body
                         color: #FFECB3
         
         div#header-content
+            width: 100%
             height: 70%
-            flex-flow: column wrap
+            flex-flow: row wrap
             justify-content: center
             align-items: center
             color: #fff
+
+            .welcome
+                flex-flow: column wrap
+                justify-content: center
+                align-items: center
 
             h1
                 padding: 0
@@ -47,7 +54,7 @@ body
             p
                 font-weight: 200
                 font-size: 2em
-                
+
         nav.bg-tr
             background-color: unset
 
